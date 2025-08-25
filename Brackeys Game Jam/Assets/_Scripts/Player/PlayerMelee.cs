@@ -10,6 +10,7 @@ public class PlayerAttack : MonoBehaviour
     [Header("References")]
     public Transform attackPoint;
     public Vector2 attackBoxSize = new Vector2(1f, 1f);
+    public int damage = 1;
 
     float lastAttackTime;
 
@@ -28,7 +29,7 @@ public class PlayerAttack : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            //enemy.GetComponent<EnemyHealth>()?.TakeDamage(1);
+            enemy.GetComponent<EnemyHealth>()?.TakeDamage(damage);
         }
     }
 
