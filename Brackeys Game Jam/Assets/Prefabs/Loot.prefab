@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5354994118352821996}
   - component: {fileID: 6068780320079305037}
   - component: {fileID: 5962738102268660915}
+  - component: {fileID: 1368902719381244052}
   m_Layer: 0
   m_Name: Loot
   m_TagString: Untagged
@@ -165,3 +166,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &1368902719381244052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7467185561542977665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff1a76188088f34db8a7c3385dd2608, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Collectible
+  OnCollect:
+    m_PersistentCalls:
+      m_Calls: []
