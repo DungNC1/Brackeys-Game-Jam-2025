@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(LootSystem))]
 public class EnemyHealth : MonoBehaviour
 {
     public int health;
@@ -16,6 +17,7 @@ public class EnemyHealth : MonoBehaviour
 
         if(currentHealth <= 0)
         {
+            GetComponent<LootSystem>().DropLoot();
             Destroy(gameObject);
         }
     }
