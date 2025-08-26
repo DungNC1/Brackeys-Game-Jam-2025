@@ -7,11 +7,14 @@ public class Collectible : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(OnCollect != null)
+        if(collision.CompareTag("Player"))
         {
-            OnCollect.Invoke();
-        }
+            if (OnCollect != null)
+            {
+                OnCollect.Invoke();
+            }
 
-        Destroy(gameObject);
+            Destroy(gameObject);
+        }
     }
 }
