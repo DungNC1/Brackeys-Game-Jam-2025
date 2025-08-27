@@ -3,7 +3,7 @@ using System.Runtime.CompilerServices;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class PlayerController : MonoBehaviour
+public class PlayerMovement : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed = 8f;
@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     public float jumpBufferTime = 0.2f;
 
     private Rigidbody2D rb;
+    private Animator animator;
     private bool isDashing = false;
     private float lastDashTime;
     private float moveInput;
@@ -33,6 +34,7 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
     }
 
@@ -42,8 +44,12 @@ public class PlayerController : MonoBehaviour
 
         if (moveInput != 0)
         {
+            animator.SetBool("isWalking", true);
             facingDirection = (int)Mathf.Sign(moveInput);
             transform.localScale = new Vector3(facingDirection, 1, 1);
+        } else
+        {
+            animator.SetBool("isWalking", false);
         }
 
         if (IsGrounded())
@@ -79,16 +85,12 @@ public class PlayerController : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
 
-    private void Jump()
-    {
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-    }
-
     private IEnumerator Dash()
     {
         isDashing = true;
         lastDashTime = Time.time;
 
+        animator.SetTrigger("dash");
         float dashDirection = Mathf.Sign(transform.localScale.x);
         rb.linearVelocity = new Vector2(dashDirection * dashForce, 0f);
 
