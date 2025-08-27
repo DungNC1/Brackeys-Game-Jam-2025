@@ -2496,8 +2496,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1302237910797838503, guid: afb3e217ec568f64fa7d566610b91385, type: 3}
+      propertyPath: lootBounceForceMax
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302237910797838503, guid: afb3e217ec568f64fa7d566610b91385, type: 3}
       propertyPath: chestLoot.Array.size
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302237910797838503, guid: afb3e217ec568f64fa7d566610b91385, type: 3}
+      propertyPath: lootSpawnRandomnessX
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1302237910797838503, guid: afb3e217ec568f64fa7d566610b91385, type: 3}
       propertyPath: 'chestLoot.Array.data[0]'
