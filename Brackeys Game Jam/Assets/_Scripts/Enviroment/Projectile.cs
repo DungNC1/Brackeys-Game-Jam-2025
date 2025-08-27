@@ -18,14 +18,14 @@ public class Projectile : MonoBehaviour
     void Start()
     {
         Destroy(gameObject, lifetime);
-        rb.velocity = direction.normalized * speed;
+        rb.linearVelocity = direction.normalized * speed;
     }
 
     public void Initialize(Vector2 dir)
     {
         if (dir == Vector2.zero) dir = Vector2.right;
         direction = dir.normalized;
-        rb.velocity = direction * speed;
+        rb.linearVelocity = direction * speed;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }

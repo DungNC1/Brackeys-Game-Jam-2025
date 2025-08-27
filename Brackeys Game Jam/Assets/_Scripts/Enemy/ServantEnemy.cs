@@ -51,7 +51,7 @@ public class ServantEnemy : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.velocity = new Vector2(moveDir * moveSpeed, rb.velocity.y);
+        rb.linearVelocity = new Vector2(moveDir * moveSpeed, rb.linearVelocity.y);
     }
 
     void FacePlayer()
