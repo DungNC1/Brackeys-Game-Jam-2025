@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: b675a800e89b04446a108810bd18731d
+guid: 20da63edd42dcea4bb464d407a4c2664
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -174999134104339793
-    second: Player_melee_0
+      213: 571713834404479814
+    second: Player_jump_0
   - first:
-      213: 5471035354287885015
-    second: Player_melee_1
+      213: 2814666933228530186
+    second: Player_jump_1
   - first:
-      213: 5860583887414729640
-    second: Player_melee_2
-  - first:
-      213: -1768966704397170458
-    second: Player_melee_3
-  - first:
-      213: 304350623768038546
-    second: Player_melee_4
-  - first:
-      213: 5879324813504762054
-    second: Player_melee_5
+      213: 6776090996393542491
+    second: Player_jump_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,12 +119,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_melee_0
+      name: Player_jump_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 70
+        width: 34
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -143,19 +134,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: faab5b7f637429df0800000000000000
-      internalID: -174999134104339793
+      spriteID: 6430bdc04b22fe700800000000000000
+      internalID: 571713834404479814
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_melee_1
+      name: Player_jump_1
       rect:
         serializedVersion: 2
-        x: 70
+        x: 34
         y: 0
-        width: 70
+        width: 34
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -165,19 +156,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7daceedfaa50deb40800000000000000
-      internalID: 5471035354287885015
+      spriteID: a0aef1cb9a4bf0720800000000000000
+      internalID: 2814666933228530186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_melee_2
+      name: Player_jump_2
       rect:
         serializedVersion: 2
-        x: 140
+        x: 68
         y: 0
-        width: 70
+        width: 34
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -187,74 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ab9bb1bef9f45150800000000000000
-      internalID: 5860583887414729640
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_melee_3
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 0
-        width: 70
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e8c9ec972e5377e0800000000000000
-      internalID: -1768966704397170458
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_melee_4
-      rect:
-        serializedVersion: 2
-        x: 280
-        y: 0
-        width: 70
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 29cccd0a745493400800000000000000
-      internalID: 304350623768038546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_melee_5
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 0
-        width: 70
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6c0571494ce879150800000000000000
-      internalID: 5879324813504762054
+      spriteID: b5382c52cd2890e50800000000000000
+      internalID: 6776090996393542491
       vertices: []
       indices: 
       edges: []
@@ -263,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 610db4740d973a3438ef3f3a645848bc
+    spriteID: 2ae02e02a42b61344ba5a6ebc326f0cc
     internalID: 0
     vertices: []
     indices: 
@@ -273,14 +198,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":70.0,"y":34.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":34.0,"y":34.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Player_melee_0: -174999134104339793
-      Player_melee_1: 5471035354287885015
-      Player_melee_2: 5860583887414729640
-      Player_melee_3: -1768966704397170458
-      Player_melee_4: 304350623768038546
-      Player_melee_5: 5879324813504762054
+      Player_jump_0: 571713834404479814
+      Player_jump_1: 2814666933228530186
+      Player_jump_2: 6776090996393542491
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
