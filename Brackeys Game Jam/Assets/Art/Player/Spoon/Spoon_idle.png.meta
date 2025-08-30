@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 1e1dd980453187040a3f52d0dd901115
+guid: a7d7148bc305bcf429476db664a2a73c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -467307283419413426
-    second: Player_Idle_0
+      213: -5766560501719682871
+    second: Spoon_idle_0
   - first:
-      213: -5258030014049578038
-    second: Player_Idle_1
+      213: -6622534997065963351
+    second: Spoon_idle_1
   - first:
-      213: 6236088313408774587
-    second: Player_Idle_2
+      213: -2977124049306715295
+    second: Spoon_idle_2
   - first:
-      213: -1461283530703516926
-    second: Player_Idle_3
+      213: 4944451393157020646
+    second: Spoon_idle_3
   - first:
-      213: 9073950842162242612
-    second: Player_Idle_4
+      213: -5145438130258727827
+    second: Spoon_idle_4
   - first:
-      213: 4245344421344247407
-    second: Player_Idle_5
+      213: 5567235512835213378
+    second: Spoon_idle_5
   - first:
-      213: 3301799781894900959
-    second: Player_Idle_6
+      213: -8495332897830851316
+    second: Spoon_idle_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -127,24 +127,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle_0
+      name: Spoon_idle_0
       rect:
         serializedVersion: 2
         x: 0
@@ -159,14 +146,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4445da608ac389f0800000000000000
-      internalID: -467307283419413426
+      spriteID: 9c03337b6cf09ffa0800000000000000
+      internalID: -5766560501719682871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_1
+      name: Spoon_idle_1
       rect:
         serializedVersion: 2
         x: 34
@@ -181,14 +168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac39b3a7f89b707b0800000000000000
-      internalID: -5258030014049578038
+      spriteID: 9a86a4302870814a0800000000000000
+      internalID: -6622534997065963351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_2
+      name: Spoon_idle_2
       rect:
         serializedVersion: 2
         x: 68
@@ -203,14 +190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb1e1b4e7490b8650800000000000000
-      internalID: 6236088313408774587
+      spriteID: 16bfccc53712fa6d0800000000000000
+      internalID: -2977124049306715295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_3
+      name: Spoon_idle_3
       rect:
         serializedVersion: 2
         x: 102
@@ -225,14 +212,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20bc94cfe5a78bbe0800000000000000
-      internalID: -1461283530703516926
+      spriteID: 6eb3f4268583e9440800000000000000
+      internalID: 4944451393157020646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_4
+      name: Spoon_idle_4
       rect:
         serializedVersion: 2
         x: 136
@@ -247,14 +234,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 434ef6017362ded70800000000000000
-      internalID: 9073950842162242612
+      spriteID: d6cad20484bb798b0800000000000000
+      internalID: -5145438130258727827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_5
+      name: Spoon_idle_5
       rect:
         serializedVersion: 2
         x: 170
@@ -269,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6ef867224e7aea30800000000000000
-      internalID: 4245344421344247407
+      spriteID: 2488b73d33bc24d40800000000000000
+      internalID: 5567235512835213378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_6
+      name: Spoon_idle_6
       rect:
         serializedVersion: 2
         x: 204
@@ -291,8 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdcce4f686952dd20800000000000000
-      internalID: 3301799781894900959
+      spriteID: c0d2a185db38a1a80800000000000000
+      internalID: -8495332897830851316
       vertices: []
       indices: 
       edges: []
@@ -301,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d5a1dd9256fbf064e92bd8ee6609f6f1
+    spriteID: 031149a9168074447906fd289df3a144
     internalID: 0
     vertices: []
     indices: 
@@ -309,15 +296,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":34.0,"y":34.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Player_Idle_0: -467307283419413426
-      Player_Idle_1: -5258030014049578038
-      Player_Idle_2: 6236088313408774587
-      Player_Idle_3: -1461283530703516926
-      Player_Idle_4: 9073950842162242612
-      Player_Idle_5: 4245344421344247407
-      Player_Idle_6: 3301799781894900959
+      Spoon_idle_0: -5766560501719682871
+      Spoon_idle_1: -6622534997065963351
+      Spoon_idle_2: -2977124049306715295
+      Spoon_idle_3: 4944451393157020646
+      Spoon_idle_4: -5145438130258727827
+      Spoon_idle_5: 5567235512835213378
+      Spoon_idle_6: -8495332897830851316
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

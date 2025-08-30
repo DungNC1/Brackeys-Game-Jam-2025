@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: 1e1dd980453187040a3f52d0dd901115
+guid: 15457463aa27af34c894942aa8e194e9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -467307283419413426
-    second: Player_Idle_0
+      213: -543497510317795947
+    second: Player_fall_0
   - first:
-      213: -5258030014049578038
-    second: Player_Idle_1
+      213: -1808493883878589059
+    second: Player_fall_1
   - first:
-      213: 6236088313408774587
-    second: Player_Idle_2
+      213: -6643872878041044790
+    second: Player_fall_2
   - first:
-      213: -1461283530703516926
-    second: Player_Idle_3
-  - first:
-      213: 9073950842162242612
-    second: Player_Idle_4
-  - first:
-      213: 4245344421344247407
-    second: Player_Idle_5
-  - first:
-      213: 3301799781894900959
-    second: Player_Idle_6
+      213: -6595089595184600776
+    second: Player_fall_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -127,24 +118,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle_0
+      name: Player_fall_0
       rect:
         serializedVersion: 2
         x: 0
@@ -159,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4445da608ac389f0800000000000000
-      internalID: -467307283419413426
+      spriteID: 595d239d4eb1578f0800000000000000
+      internalID: -543497510317795947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_1
+      name: Player_fall_1
       rect:
         serializedVersion: 2
         x: 34
@@ -181,14 +159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac39b3a7f89b707b0800000000000000
-      internalID: -5258030014049578038
+      spriteID: d7d33f8f460f6e6e0800000000000000
+      internalID: -1808493883878589059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_2
+      name: Player_fall_2
       rect:
         serializedVersion: 2
         x: 68
@@ -203,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb1e1b4e7490b8650800000000000000
-      internalID: 6236088313408774587
+      spriteID: ac8e28371d83cc3a0800000000000000
+      internalID: -6643872878041044790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_3
+      name: Player_fall_3
       rect:
         serializedVersion: 2
         x: 102
@@ -225,74 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20bc94cfe5a78bbe0800000000000000
-      internalID: -1461283530703516926
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Idle_4
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 0
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 434ef6017362ded70800000000000000
-      internalID: 9073950842162242612
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Idle_5
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 0
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f6ef867224e7aea30800000000000000
-      internalID: 4245344421344247407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Idle_6
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 0
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fdcce4f686952dd20800000000000000
-      internalID: 3301799781894900959
+      spriteID: 839a52994f88974a0800000000000000
+      internalID: -6595089595184600776
       vertices: []
       indices: 
       edges: []
@@ -301,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d5a1dd9256fbf064e92bd8ee6609f6f1
+    spriteID: 14d9c3288f3a21642b82ac642e3b12db
     internalID: 0
     vertices: []
     indices: 
@@ -309,15 +221,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":34.0,"y":34.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Player_Idle_0: -467307283419413426
-      Player_Idle_1: -5258030014049578038
-      Player_Idle_2: 6236088313408774587
-      Player_Idle_3: -1461283530703516926
-      Player_Idle_4: 9073950842162242612
-      Player_Idle_5: 4245344421344247407
-      Player_Idle_6: 3301799781894900959
+      Player_fall_0: -543497510317795947
+      Player_fall_1: -1808493883878589059
+      Player_fall_2: -6643872878041044790
+      Player_fall_3: -6595089595184600776
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

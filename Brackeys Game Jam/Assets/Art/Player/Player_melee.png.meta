@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: 1e1dd980453187040a3f52d0dd901115
+guid: b675a800e89b04446a108810bd18731d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -467307283419413426
-    second: Player_Idle_0
+      213: -174999134104339793
+    second: Player_melee_0
   - first:
-      213: -5258030014049578038
-    second: Player_Idle_1
+      213: 5471035354287885015
+    second: Player_melee_1
   - first:
-      213: 6236088313408774587
-    second: Player_Idle_2
+      213: 5860583887414729640
+    second: Player_melee_2
   - first:
-      213: -1461283530703516926
-    second: Player_Idle_3
+      213: -1768966704397170458
+    second: Player_melee_3
   - first:
-      213: 9073950842162242612
-    second: Player_Idle_4
+      213: 304350623768038546
+    second: Player_melee_4
   - first:
-      213: 4245344421344247407
-    second: Player_Idle_5
-  - first:
-      213: 3301799781894900959
-    second: Player_Idle_6
+      213: 5879324813504762054
+    second: Player_melee_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -127,29 +124,16 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle_0
+      name: Player_melee_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -159,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4445da608ac389f0800000000000000
-      internalID: -467307283419413426
+      spriteID: faab5b7f637429df0800000000000000
+      internalID: -174999134104339793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_1
+      name: Player_melee_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 70
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -181,19 +165,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac39b3a7f89b707b0800000000000000
-      internalID: -5258030014049578038
+      spriteID: 7daceedfaa50deb40800000000000000
+      internalID: 5471035354287885015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_2
+      name: Player_melee_2
       rect:
         serializedVersion: 2
-        x: 68
+        x: 140
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -203,19 +187,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb1e1b4e7490b8650800000000000000
-      internalID: 6236088313408774587
+      spriteID: 8ab9bb1bef9f45150800000000000000
+      internalID: 5860583887414729640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_3
+      name: Player_melee_3
       rect:
         serializedVersion: 2
-        x: 102
+        x: 210
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -225,19 +209,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20bc94cfe5a78bbe0800000000000000
-      internalID: -1461283530703516926
+      spriteID: 6e8c9ec972e5377e0800000000000000
+      internalID: -1768966704397170458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_4
+      name: Player_melee_4
       rect:
         serializedVersion: 2
-        x: 136
+        x: 280
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -247,19 +231,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 434ef6017362ded70800000000000000
-      internalID: 9073950842162242612
+      spriteID: 29cccd0a745493400800000000000000
+      internalID: 304350623768038546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_5
+      name: Player_melee_5
       rect:
         serializedVersion: 2
-        x: 170
+        x: 350
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -269,30 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6ef867224e7aea30800000000000000
-      internalID: 4245344421344247407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Idle_6
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 0
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fdcce4f686952dd20800000000000000
-      internalID: 3301799781894900959
+      spriteID: 6c0571494ce879150800000000000000
+      internalID: 5879324813504762054
       vertices: []
       indices: 
       edges: []
@@ -301,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d5a1dd9256fbf064e92bd8ee6609f6f1
+    spriteID: 610db4740d973a3438ef3f3a645848bc
     internalID: 0
     vertices: []
     indices: 
@@ -309,15 +271,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":70.0,"y":34.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Player_Idle_0: -467307283419413426
-      Player_Idle_1: -5258030014049578038
-      Player_Idle_2: 6236088313408774587
-      Player_Idle_3: -1461283530703516926
-      Player_Idle_4: 9073950842162242612
-      Player_Idle_5: 4245344421344247407
-      Player_Idle_6: 3301799781894900959
+      Player_melee_0: -174999134104339793
+      Player_melee_1: 5471035354287885015
+      Player_melee_2: 5860583887414729640
+      Player_melee_3: -1768966704397170458
+      Player_melee_4: 304350623768038546
+      Player_melee_5: 5879324813504762054
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

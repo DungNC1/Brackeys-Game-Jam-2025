@@ -1,28 +1,37 @@
 fileFormatVersion: 2
-guid: 1e1dd980453187040a3f52d0dd901115
+guid: c58ff20d26ccfc04d899e70a8637245b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -467307283419413426
-    second: Player_Idle_0
+      213: -7299698253113087329
+    second: Spoon_dash_0
   - first:
-      213: -5258030014049578038
-    second: Player_Idle_1
+      213: 8445422154218339766
+    second: Spoon_dash_1
   - first:
-      213: 6236088313408774587
-    second: Player_Idle_2
+      213: -2218004657200431024
+    second: Spoon_dash_2
   - first:
-      213: -1461283530703516926
-    second: Player_Idle_3
+      213: 7722169475152511332
+    second: Spoon_dash_3
   - first:
-      213: 9073950842162242612
-    second: Player_Idle_4
+      213: -435711918308947684
+    second: Spoon_dash_4
   - first:
-      213: 4245344421344247407
-    second: Player_Idle_5
+      213: -1282559988539858670
+    second: Spoon_dash_5
   - first:
-      213: 3301799781894900959
-    second: Player_Idle_6
+      213: 780898716663542581
+    second: Spoon_dash_6
+  - first:
+      213: 6500690432168264536
+    second: Spoon_dash_7
+  - first:
+      213: -260488518653457304
+    second: Spoon_dash_8
+  - first:
+      213: 5904571450294319069
+    second: Spoon_dash_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -127,29 +136,16 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle_0
+      name: Spoon_dash_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -159,19 +155,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4445da608ac389f0800000000000000
-      internalID: -467307283419413426
+      spriteID: f9aa7af3d1342ba90800000000000000
+      internalID: -7299698253113087329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_1
+      name: Spoon_dash_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 70
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -181,19 +177,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac39b3a7f89b707b0800000000000000
-      internalID: -5258030014049578038
+      spriteID: 6bdf56814ba243570800000000000000
+      internalID: 8445422154218339766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_2
+      name: Spoon_dash_2
       rect:
         serializedVersion: 2
-        x: 68
+        x: 140
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -203,19 +199,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb1e1b4e7490b8650800000000000000
-      internalID: 6236088313408774587
+      spriteID: 050086904801831e0800000000000000
+      internalID: -2218004657200431024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_3
+      name: Spoon_dash_3
       rect:
         serializedVersion: 2
-        x: 102
+        x: 210
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -225,19 +221,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20bc94cfe5a78bbe0800000000000000
-      internalID: -1461283530703516926
+      spriteID: 46184dd4938aa2b60800000000000000
+      internalID: 7722169475152511332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_4
+      name: Spoon_dash_4
       rect:
         serializedVersion: 2
-        x: 136
+        x: 280
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -247,19 +243,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 434ef6017362ded70800000000000000
-      internalID: 9073950842162242612
+      spriteID: c198acc915a04f9f0800000000000000
+      internalID: -435711918308947684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_5
+      name: Spoon_dash_5
       rect:
         serializedVersion: 2
-        x: 170
+        x: 350
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -269,19 +265,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6ef867224e7aea30800000000000000
-      internalID: 4245344421344247407
+      spriteID: 211e3f75c7e633ee0800000000000000
+      internalID: -1282559988539858670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_6
+      name: Spoon_dash_6
       rect:
         serializedVersion: 2
-        x: 204
+        x: 420
         y: 0
-        width: 34
+        width: 70
         height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -291,8 +287,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdcce4f686952dd20800000000000000
-      internalID: 3301799781894900959
+      spriteID: 533f944de3f46da00800000000000000
+      internalID: 780898716663542581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spoon_dash_7
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 0
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8538b248187173a50800000000000000
+      internalID: 6500690432168264536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spoon_dash_8
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cc799821f826cf0800000000000000
+      internalID: -260488518653457304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spoon_dash_9
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 70
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7b4b5437041f150800000000000000
+      internalID: 5904571450294319069
       vertices: []
       indices: 
       edges: []
@@ -301,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d5a1dd9256fbf064e92bd8ee6609f6f1
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -309,15 +371,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":70.0,"y":34.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Player_Idle_0: -467307283419413426
-      Player_Idle_1: -5258030014049578038
-      Player_Idle_2: 6236088313408774587
-      Player_Idle_3: -1461283530703516926
-      Player_Idle_4: 9073950842162242612
-      Player_Idle_5: 4245344421344247407
-      Player_Idle_6: 3301799781894900959
+      Spoon_dash_0: -7299698253113087329
+      Spoon_dash_1: 8445422154218339766
+      Spoon_dash_2: -2218004657200431024
+      Spoon_dash_3: 7722169475152511332
+      Spoon_dash_4: -435711918308947684
+      Spoon_dash_5: -1282559988539858670
+      Spoon_dash_6: 780898716663542581
+      Spoon_dash_7: 6500690432168264536
+      Spoon_dash_8: -260488518653457304
+      Spoon_dash_9: 5904571450294319069
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

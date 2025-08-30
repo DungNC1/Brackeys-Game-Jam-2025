@@ -1,28 +1,28 @@
 fileFormatVersion: 2
-guid: 1e1dd980453187040a3f52d0dd901115
+guid: ba9cbfb4e6434cb4fba4443a83959598
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -467307283419413426
-    second: Player_Idle_0
+      213: -864184588271081616
+    second: ChestOpening_0
   - first:
-      213: -5258030014049578038
-    second: Player_Idle_1
+      213: 3952114707647691904
+    second: ChestOpening_1
   - first:
-      213: 6236088313408774587
-    second: Player_Idle_2
+      213: -5469076914441804142
+    second: ChestOpening_2
   - first:
-      213: -1461283530703516926
-    second: Player_Idle_3
+      213: 6457619347144247404
+    second: ChestOpening_3
   - first:
-      213: 9073950842162242612
-    second: Player_Idle_4
+      213: -5987255593898377157
+    second: ChestOpening_4
   - first:
-      213: 4245344421344247407
-    second: Player_Idle_5
+      213: 373246292401696749
+    second: ChestOpening_5
   - first:
-      213: 3301799781894900959
-    second: Player_Idle_6
+      213: -3030363890229839805
+    second: ChestOpening_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 34
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -127,30 +127,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle_0
+      name: ChestOpening_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 34
-        height: 34
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4445da608ac389f0800000000000000
-      internalID: -467307283419413426
+      spriteID: 0772cb312bcc104f0800000000000000
+      internalID: -864184588271081616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_1
+      name: ChestOpening_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 32
         y: 0
-        width: 34
-        height: 34
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac39b3a7f89b707b0800000000000000
-      internalID: -5258030014049578038
+      spriteID: 08cffec236bb8d630800000000000000
+      internalID: 3952114707647691904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_2
+      name: ChestOpening_2
       rect:
         serializedVersion: 2
-        x: 68
+        x: 64
         y: 0
-        width: 34
-        height: 34
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb1e1b4e7490b8650800000000000000
-      internalID: 6236088313408774587
+      spriteID: 2962861d58fe914b0800000000000000
+      internalID: -5469076914441804142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_3
+      name: ChestOpening_3
       rect:
         serializedVersion: 2
-        x: 102
+        x: 96
         y: 0
-        width: 34
-        height: 34
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20bc94cfe5a78bbe0800000000000000
-      internalID: -1461283530703516926
+      spriteID: c68093115921e9950800000000000000
+      internalID: 6457619347144247404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_4
+      name: ChestOpening_4
       rect:
         serializedVersion: 2
-        x: 136
+        x: 128
         y: 0
-        width: 34
-        height: 34
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,20 +234,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 434ef6017362ded70800000000000000
-      internalID: 9073950842162242612
+      spriteID: b30873a52cef8eca0800000000000000
+      internalID: -5987255593898377157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_5
+      name: ChestOpening_5
       rect:
         serializedVersion: 2
-        x: 170
+        x: 160
         y: 0
-        width: 34
-        height: 34
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +256,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6ef867224e7aea30800000000000000
-      internalID: 4245344421344247407
+      spriteID: defa55086890e2500800000000000000
+      internalID: 373246292401696749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_6
+      name: ChestOpening_6
       rect:
         serializedVersion: 2
-        x: 204
+        x: 192
         y: 0
-        width: 34
-        height: 34
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,8 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fdcce4f686952dd20800000000000000
-      internalID: 3301799781894900959
+      spriteID: 348fdaee81cf1f5d0800000000000000
+      internalID: -3030363890229839805
       vertices: []
       indices: 
       edges: []
@@ -301,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d5a1dd9256fbf064e92bd8ee6609f6f1
+    spriteID: 208b3382b366882458201d3497c45e6e
     internalID: 0
     vertices: []
     indices: 
@@ -309,15 +296,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Player_Idle_0: -467307283419413426
-      Player_Idle_1: -5258030014049578038
-      Player_Idle_2: 6236088313408774587
-      Player_Idle_3: -1461283530703516926
-      Player_Idle_4: 9073950842162242612
-      Player_Idle_5: 4245344421344247407
-      Player_Idle_6: 3301799781894900959
+      ChestOpening_0: -864184588271081616
+      ChestOpening_1: 3952114707647691904
+      ChestOpening_2: -5469076914441804142
+      ChestOpening_3: 6457619347144247404
+      ChestOpening_4: -5987255593898377157
+      ChestOpening_5: 373246292401696749
+      ChestOpening_6: -3030363890229839805
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
